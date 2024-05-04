@@ -1,23 +1,24 @@
 {
-  "name": "parcel-project-template",
+  "name": "udemy-todo-list",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://danretegan.github.io/udemy-todo-list",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /udemy-todo-list/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/danretegan/udemy-todo-list.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Dan Retegan <danretegan@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/danretegan/udemy-todo-list/issues"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001615",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
