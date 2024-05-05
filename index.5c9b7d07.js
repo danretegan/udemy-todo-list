@@ -1,0 +1,2 @@
+var addForm=document.querySelector(".add"),list=document.querySelector(".todos"),generateTemplate=function(e){var t='\n  <li\n          class="list-group-item d-flex justify-content-between align-items-center"\n        >\n          <span>'.concat(e,'</span>\n          <i class="far fa-trash-alt delete"></i>\n        </li>\n  ');list.innerHTML+=t};addForm.addEventListener("submit",(function(e){e.preventDefault();var t=addForm.add.value.trim();t.length&&(generateTemplate(t),addForm.reset())}));
+//# sourceMappingURL=index.5c9b7d07.js.map
